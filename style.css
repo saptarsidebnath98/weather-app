@@ -7,12 +7,14 @@ body{
     text-align: center;
     align-items: center;
     flex-direction: column;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   
 }
 
 .container {
     border: 2px solid black;
-    height: 70vh;
+    height: auto;
     width: 30vw;
     min-width: 20vw;
     border-radius: 10px;
@@ -24,10 +26,11 @@ body{
     align-items: center;
     flex-direction: column;
     gap: 50px;
+    padding-bottom: 20px;
 }
 
 .top {
-    width: 90%;
+    width: 80%;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -41,10 +44,15 @@ body{
     padding: 5px 10px;
 }
 
-.searchBtn img {
+#searchIcon{
    border-radius: 10px;
    height: 30px;
     width: 30px;
+    cursor: pointer;
+}
+#errorMsg{
+    text-align: left;
+    display: none;
 }
 
 .temperature {
@@ -87,4 +95,8 @@ body{
 .left img, .right img {
     height: 40px;
     width: 40px;
+}
+
+.middle , .bottom{
+    display: none;
 }
