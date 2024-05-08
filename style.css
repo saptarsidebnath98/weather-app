@@ -1,0 +1,90 @@
+body{
+    margin: 0%;
+    padding: 0%;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.container {
+    border: 2px solid black;
+    height: 70vh;
+    width: 30vw;
+    min-width: 20vw;
+    border-radius: 10px;
+    
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.top {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.searchBox{
+    flex: 1;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.searchBtn img {
+   border-radius: 10px;
+   height: 30px;
+    width: 30px;
+}
+
+.temperature {
+    font-size: 70px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle img {
+   height: 100px;
+   width: 100px;
+}
+.cityName{
+    font-size: 30px; 
+}
+
+.bottom{
+    margin: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10%;
+
+}
+
+.left , .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    text-align: left;
+}
+.left img, .right img {
+    height: 40px;
+    width: 40px;
+}
